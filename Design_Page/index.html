@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>One Ui Design Templates</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="index.html">
+            <img src="images/arka.jpg" alt="Photo" />
+          </a>
+          <!-- navigation -->
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">Home</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">About Us</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">Careers</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link nav__list-link--dropdown" href="#"
+                >Services</a
+              >
+              <!-- sub navigation -->
+              <div class="nav-list__sub-nav">
+                <ul class="sub-nav">
+                  <li class="sub-nav__item">
+                    <a class="sub-nav__link" href="#web-design">Web Design</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a class="sub-nav__link" href="#content-writing"
+                      >Content Writing</a
+                    >
+                  </li>
+                  <li class="sub-nav__item">
+                    <a class="sub-nav__link" href="#seo">SEO</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a class="sub-nav__link" href="#hosting">Hosting</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a class="sub-nav__link" href="#ui-design">Ui Design</a>
+                  </li>
+                  <li class="sub-nav__item">
+                    <a class="sub-nav__link" href="#content-box">Content Box</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="admission">
+            <a class="admission__login muted-link-state" href="#">Login</a>
+            <a class="admission__register accent__link-state" href="#"
+              >Register Now</a
+            >
+          </div>
+          <!-- Open navigation -->
+          <button id="open-mobile-nav-btn" class="nav__btn">
+            <img src="./images/icons/mobile-nav.svg" alt="Open navigation" />
+          </button>
+        </nav>
+        <div class="header__content">
+          <h1 class="header__title">Welcome to Arka Consultancy!</h1>
+          <p class="header__text text">
+            Welcome to Arka Consultancy - Your partner in unlocking the potential of Artificial Intelligence for business growth.
+            We are a team of AI and marketing experts committed to leveraging the latest advancements in artificial intelligence to help businesses succeed.
+
+          </p>
+          <!-- content links -->
+          <div class="header__links">
+            <a class="accent-link accent__link-state" href="#">
+              <img
+                class="start__icon"
+                src="images/icons/start-btn.svg"
+                alt="icon"
+              />
+              Get Started Now
+            </a>
+            <a class="muted-link muted-link-state" href="#">
+              Live Preview
+              <img
+                class="live__icon"
+                src="images/icons/live-btn.svg"
+                alt="icon"
+              />
+            </a>
+          </div>
+          <img class="header__img" src="images/header.jpg" alt="Photo" />
+        </div>
+        <!-- mobile nav -->
+        <div id="mobile-nav" class="mobile-nav-wrapper">
+          <div class="mobile-nav-header">
+            <button id="close-mobile-nav-btn" class="mobile-nav-btn-close">
+              <img src="./images/icons/close.svg" alt="Close navigation" />
+            </button>
+          </div>
+          <ul class="mobile-nav">
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="index.html">Home</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="#">About Us</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="#">Careers</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="#">Services</a>
+              <ul class="mobile-sub-nav">
+                <li class="mobile-sub-nav__item">
+                  <a class="mobile-sub-nav__link" href="#web-design"
+                    >Web Design</a
+                  >
+                </li>
+                <li class="mobile-sub-nav__item">
+                  <a class="mobile-sub-nav__link" href="#content-writing"
+                    >Content Writing</a
+                  >
+                </li>
+                <li class="mobile-sub-nav__item">
+                  <a class="mobile-sub-nav__link" href="#seo">SEO</a>
+                </li>
+                <li class="mobile-sub-nav__item">
+                  <a class="mobile-sub-nav__link" href="#hosting">Hosting</a>
+                </li>
+                <li class="mobile-sub-nav__item">
+                  <a class="mobile-sub-nav__link" href="#ui-design"
+                    >Ui Design</a
+                  >
+                </li>
+                <li class="mobile-sub-nav__item">
+                  <a class="mobile-sub-nav__link" href="#content-box"
+                    >Content Box</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!-- Services -->
+      <section class="services">
+        <div class="container">
+          <div class="services__top">
+            <h2 class="services__title">Services We Offer</h2>
+            <p class="services__text text">
+              Use one library with any framework you have. Creative and
+              Beautiful websites now made easy with One Ui Design Templates.
+            </p>
+          </div>
+          <!-- cards -->
+          <ul class="services__cards">
+            <li class="services__card services__card-1">
+              <h3 class="services__card-title">Web Design</h3>
+              <p class="services__card-text">
+                a book or other written or printed work, regarded in terms of
+                its content rather than its physical form.
+              </p>
+              <div class="services__card-link">
+                <a class="services__card-read" href="#">Read More</a>
+              </div>
+            </li>
+            <li class="services__card services__card-2">
+              <h3 class="services__card-title">Content Writing</h3>
+              <p class="services__card-text">
+                a book or other written or printed work, regarded in terms of
+                its content rather than its physical form.
+              </p>
+              <div class="services__card-link">
+                <a class="services__card-read" href="#">Read More</a>
+              </div>
+            </li>
+            <li class="services__card services__card-3">
+              <h3 class="services__card-title">SEO</h3>
+              <p class="services__card-text">
+                a book or other written or printed work, regarded in terms of
+                its content rather than its physical form.
+              </p>
+              <div class="services__card-link">
+                <a class="services__card-read" href="#">Read More</a>
+              </div>
+            </li>
+            <li class="services__card services__card-4">
+              <h3 class="services__card-title">Hosting</h3>
+              <p class="services__card-text">
+                a book or other written or printed work, regarded in terms of
+                its content rather than its physical form.
+              </p>
+              <div class="services__card-link">
+                <a class="services__card-read" href="#">Read More</a>
+              </div>
+            </li>
+            <li class="services__card services__card-5">
+              <h3 class="services__card-title">Ui Design</h3>
+              <p class="services__card-text">
+                a book or other written or printed work, regarded in terms of
+                its content rather than its physical form.
+              </p>
+              <div class="services__card-link">
+                <a class="services__card-read" href="#">Read More</a>
+              </div>
+            </li>
+            <li class="services__card services__card-6">
+              <h3 class="services__card-title">Content Box</h3>
+              <p class="services__card-text">
+                a book or other written or printed work, regarded in terms of
+                its content rather than its physical form.
+              </p>
+              <div class="services__card-link">
+                <a class="services__card-read" href="#">Read More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__content">
+              <div class="about__top">
+                <h2 class="about__title">Marketing Services</h2>
+                <p class="about__text">
+                  We are dedicated to providing you with the assistance and resources you need to excel in your career.
+                </p>
+                <div class="about__links">
+                  <a class="accent-link accent__link-state" href="#">
+                    <img
+                      class="start__icon"
+                      src="images/icons/start-btn.svg"
+                      alt="icon"
+                    />
+                    Contact Us
+                  </a>
+                  <a class="muted-link muted-link-state" href="#">
+                    Live Preview
+                    <img
+                      class="live__icon"
+                      src="images/icons/live-btn.svg"
+                      alt="icon"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="about__bottom">
+                <p class="about__note">
+                  “You can change the future by what you do today. The best thing about the past is learning what not to take into the future.”
+                </p>
+                <div class="user">
+                  <div class="user__avatar">
+                    <img class="user__img" src="images/user.jpg" alt="Avatar" />
+                  </div>
+                  <div class="user__desc">
+                    <span class="user__name">Bhavya Sharma</span>
+                    <span class="user__post">CEO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img class="about__img" src="images/about.jpg" alt="Photo" />
+          </div>
+        </div>
+      </section>
+      <!-- Reach -->
+      <section class="reach">
+        <div class="container">
+          <div class="reach__content">
+            <h2 class="reach__title">Expert Opinion 1 Click Away</h2>
+            <p class="reach__text text">
+              Use one library with any framework you have. Creative and
+              Beautiful websites now made easy with One Ui Design Templates.
+            </p>
+            <a class="accent-link accent__link-state" href="#">
+              <img
+                class="start__icon"
+                src="images/icons/start-btn.svg"
+                alt="icon"
+              />
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container container--footer">
+        <!-- footer Grid -->
+        <div class="footer__grid">
+          <div class="footer__desc">
+            <div class="footer__logo">
+              <a class="logo" href="#">
+                <img src="images/arka.jpg" />
+              </a>
+            </div>
+            <h3 class="footer__title">
+              Lets take your business to next level with Better Advertising
+            </h3>
+          </div>
+          <!-- navigation platform -->
+          <nav class="footer__nav footer__nav--platform">
+            <h4 class="footer__nav-title">Platform</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Advertising</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >SEO &amp;&nbsp;Social Media</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Blog Post</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Home</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- navigation company -->
+          <nav class="footer__nav">
+            <h4 class="footer__nav-title">Company</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Affiliations</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Careers</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Tutorials</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >What&rsquo;s New</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- navigation resources -->
+          <nav class="footer__nav">
+            <h4 class="footer__nav-title">Resources</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Terms of Service</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link footer__link-global" href="#"
+                  >Home</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Footer Row -->
+
+          <div class="footer__links">
+            <a class="footer__link footer__link-global" href="#"
+              >Terms of Service</a
+            >
+            <a class="footer__link footer__link-global" href="#"
+              >Privacy Policy</a
+            >
+            <a class="footer__link footer__link-global" href="#">Media</a>
+            <a class="footer__link footer__link-global" href="#">DCMA</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
